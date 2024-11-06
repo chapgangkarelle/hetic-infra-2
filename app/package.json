@@ -1,7 +1,6 @@
 {
-  "name": "node-express-hello-world",
+  "name": "express-hello-world",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
@@ -9,7 +8,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "ejs": "^2.3.4",
-    "express": "^4.13.3"
-  }
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  },
+  "keywords": [],
+  "description": ""
 }
